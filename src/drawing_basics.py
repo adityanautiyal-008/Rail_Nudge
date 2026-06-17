@@ -13,7 +13,7 @@ def main():
             print("failed to grab frame")
             break
 
-        #drawing on the live vedio 
+        #drawing on the live video 
 
         #line
         cv2.line(frame, (50, 50), (400, 50), (0, 255, 0), 2)
