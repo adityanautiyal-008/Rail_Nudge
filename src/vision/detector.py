@@ -20,7 +20,7 @@ from typing import List, Dict, Any
 class Detector:
     def __init__(
             self,
-            model_path: str = "yolov8n.pt",
+            model_path="models/yolov8n.pt",
             confidence_threshold: float = 0.5,
             classes: list = [0]
     ):
